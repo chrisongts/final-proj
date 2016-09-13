@@ -6,7 +6,6 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-
 }
 
 media screen and (min-width: 1000px) {
@@ -128,4 +127,36 @@ p {
   height: 180px;
   border: 1px red solid;
   z-index: -1;
+}
+
+.proj-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #87ceeb;
+  z-index: -1;
+}
+
+.proj-circle-text {
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 10%;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.proj-desc {
+  border-top: 2px black solid;
+  margin-top: 22%;
+  padding-top: 5%;
+}
+
+.contact-me {
+  border: 2px black solid;
+  width: 725px;
+}
+
+input, textarea {
+  background-color: #FF0066;
 }
