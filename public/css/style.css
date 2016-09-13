@@ -1,0 +1,22 @@
+/*body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}*/
+
+a {
+  color: #00B7FF;
+}
+
+body {
+      padding-top: 50px;
+      ont: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    }
+
+img {
+      width: 140px;
+      height: 140px;
+    }
+
+.fa-sign-out {
+              float: right;
+            }

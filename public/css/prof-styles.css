@@ -1,0 +1,131 @@
+.block {
+  background-color: black;
+  opacity: .7;
+  padding: 10px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+
+}
+
+media screen and (min-width: 1000px) {
+  .container {
+      height: 800px;
+      width: 1000px;
+      margin: 0 auto;
+  }
+}
+
+.nav-pills {
+  font-size: 1.5em;
+  /*background-color: black;*/
+  margin-bottom: 10%;
+}
+
+body {
+  background-color: white;
+  margin: 0px;
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  padding: 0;
+  margin-top: 0;
+  font-size: 5em;
+  padding-top:20%;
+  color: grey;
+}
+
+h4 {
+  font-family: cursive;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.btn-default {
+  background: black;
+  border-color: black;
+  color: #337ab7;
+  font-size: 1.5em;
+}
+
+.home {
+  /*background: url(https://hd.unsplash.com/photo-1467521335787-2f0fc0f0e9a0);*/
+  background: url(/img/photo-bridge.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  margin-top: -10%;
+}
+
+.about, .portfolio, .resume, .contact {
+  /*background: url(https://hd.unsplash.com/photo-1466837838619-c8f5b8f0c166);*/
+  background: url(/img/bridge-bg.png);
+  /*background: url(/img/background.jpg);*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  color: black;
+  margin-top: -10%;
+}
+
+.pageTwoImg {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin-top: 75%;
+  margin-left: 15%;
+}
+
+.circle {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  margin-top: 15%;
+  margin-left: 28%;
+  position: absolute;
+  background-color: pink;
+  z-index: -1;
+}
+
+.circle-text {
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 15%;
+  text-align: center;
+}
+
+.education {
+  margin-top: 65%;
+  margin-right: 25%;
+  /*margin-bottom: -2%;*/
+}
+
+#edu-time {
+  margin-bottom: -2%;
+}
+
+.resume-content {
+  padding-top: 100%;
+  font-size: 4.5em;
+}
+
+.content {
+  padding-top: 65%;
+  font-size: 4.5em;
+  margin-bottom: 5%;
+}
+
+.port-img {
+  width: 180px;
+  height: 180px;
+  border: 1px red solid;
+  z-index: -1;
+}
