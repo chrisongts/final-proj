@@ -59,7 +59,7 @@ p {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+  height: 700px;
   margin-top: -10%;
 }
 
@@ -73,6 +73,13 @@ p {
   height: 350px;
   color: black;
   margin-top: -10%;
+}
+
+.common {
+  position: absolute;
+  margin-top: -10%;
+  margin-left: 28%;
+  z-index: 1;
 }
 
 .pageTwoImg {
