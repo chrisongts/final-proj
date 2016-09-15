@@ -55,7 +55,8 @@ p {
 
 .home {
   /*background: url(https://hd.unsplash.com/photo-1467521335787-2f0fc0f0e9a0);*/
-  background: url(/img/photo-bridge.jpeg);
+  /*background: url(/img/photo-bridge.jpeg);*/
+  background: url(/img/watching.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,8 +66,8 @@ p {
 
 .about, .portfolio, .resume, .contact {
   /*background: url(https://hd.unsplash.com/photo-1466837838619-c8f5b8f0c166);*/
-  background: url(/img/bridge-bg.png);
-  /*background: url(/img/background.jpg);*/
+  /*background: url(/img/bridge-bg.png);*/
+  background: url(/img/watching-bg.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
