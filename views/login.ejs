@@ -2,7 +2,8 @@
 
   <body>
     <div class="col-sm-8 col-sm-offset-2">
-      <div class="jumbotron text-center">
+      <!-- <div class="jumbotron text-center"> -->
+      <div class="text-center">
         <h1><span class="fa fa-sign-in"></span> Login</h1>
 
         <% if (message != null) { %>
@@ -25,8 +26,9 @@
         </form>
       </div>
       <hr>
-      <span class="fa fa-sign-in"> Don't have an account?<a href="/signup"> Signup</a></span>
-      <p>Or click here to <a href="/">home</a>.</p>
+      <span class="fa fa-sign-in login-back"> Don't have an account?<a href="/signup"> Signup</a></span></br>
+      <!-- <p class="login-back">Or click here to <a href="/">home</a>.</p> -->
+      <span class="login-back">Or click here to <a href="/">home</a>.</span>
     </div>
   </body>
 </html>

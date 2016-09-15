@@ -7,7 +7,8 @@
         <span><strong>user id</strong>: <%= user._id ? user._id : '' %></span><br>
         <span class="fa fa-sign-out"><a href="/"> Logout</a></span>
         <hr>
-        <div class="jumbotron">
+        <!-- <div class="jumbotron"> -->
+          <div>
           <% if (user.local.email != null) { %>
             <!-- <img src="https://avatars.io/gravatar/<%= user.local.email %>/140" class="img-circle"><br> -->
             <strong>First name</strong>: <%= user.local.fname %><br>
@@ -31,7 +32,7 @@
             <strong>username</strong>: <%= user.twitter.username %><br>
             <strong>displayName</strong>: <%= user.twitter.displayName %>
           <% } %>
-
+        </br>
           <div class="col-sm-8 col-sm-offset-2">
             <div class="text-center">
               <!-- <span class="fa fa-whatsapp"><a href="/chatapp"> Chat App </a></span> -->

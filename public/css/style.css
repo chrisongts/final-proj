@@ -10,6 +10,8 @@ a {
 body {
       padding-top: 50px;
       ont: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+      background-image: url(/img/sun-above.jpg);
+      background-size: cover;
     }
 
 img {
@@ -20,3 +22,10 @@ img {
 .fa-sign-out {
               float: right;
             }
+
+.login-back {
+  /*background-image: url(/img/login.jpg);*/
+  background-size: cover;
+  background-color: white;
+  font-size: 15px;
+}
