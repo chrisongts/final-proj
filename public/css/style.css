@@ -9,7 +9,7 @@ a {
 
 body {
       padding-top: 50px;
-      ont: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+      font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
       background-image: url(/img/sun-above.jpg);
       background-size: cover;
     }
